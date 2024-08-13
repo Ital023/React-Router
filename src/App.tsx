@@ -4,7 +4,7 @@ export default function App() {
   return (
     <nav>
       <Link to="/invoices">Invoices</Link>
-      <Link to="/expense">Expenses</Link>
+      <Link to="/expenses">Expenses</Link>
 
     </nav>
   );
