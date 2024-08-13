@@ -1,7 +1,11 @@
+import { Link } from "react-router-dom";
+
 export default function App() {
   return (
-    <>
-      <h1>bookkeepper</h1>
-    </>
-  )
+    <nav>
+      <Link to="/invoices">Invoices</Link>
+      <Link to="/expense">Expenses</Link>
+
+    </nav>
+  );
 }
